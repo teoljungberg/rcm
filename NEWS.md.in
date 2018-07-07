@@ -4,7 +4,8 @@ rcm (@PACKAGE_VERSION@) unstable; urgency=low
   * BUGFIX: Directories with spaces in rcup(1) (Florian Tham).
   * BUGFIX: Fallback the LOGNAME from whoami (AJ Villalobos, Mike Burns).
   * BUGFIX: Fix cd for paths beginning with hyphen (-) (Christian Höltje).
-  * Feature: Expand ~ in DOTFILES_DIR (Rebecca Meritz).
+  * Feature: Expand ~ in DOTFILES_DIR including hooks(Rebecca Meritz,
+    Eric Collins).
   * Documentation improvements (Alan Yee, Eric Collins, Florian Tham, kajisha,
 	    Matthew Horan, maxice8, Mike Burns, Rebecca Meritz, Scott Stevenson,
 	    Tyson Gach, Yota Toyama).
