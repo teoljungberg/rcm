@@ -52,3 +52,6 @@ dist_check_SCRIPTS = $(TESTS)
 dist_check_DATA = test/helper.sh
 
 LOG_COMPILER = cram
+
+lint:
+	@shellcheck -f gcc $(dist_bin_SCRIPTS)
